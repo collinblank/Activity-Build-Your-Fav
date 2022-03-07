@@ -1,0 +1,73 @@
+header,
+body {
+  background-color: #fbfbfd;
+}
+.header-text {
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 10px, 0px, 0px, 0px;
+  position: relative;
+  bottom: 30px;
+}
+.links {
+  /* border: 1px solid teal; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fbfbfd;
+  text-align: center;
+  margin: auto;
+  height: 100px;
+  padding: 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+.iPhone13-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+}
+.iPhone13-image > img {
+  width: 80em;
+  height: 60vh;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.donate img {
+  width: 150px;
+  height: 50px;
+}
+
+.donate {
+  background-color: #f5f5f7;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+
+.learn {
+  /* border: 1px solid teal;*/
+  padding-right: 2em;
+}
+
+.learn > a {
+  font-size: 1.25em;
+}
+
+.buy > a {
+  font-size: 1.25em;
+}
+
+.learn i {
+  color: #0000ee;
+}
+
+.buy i {
+  color: #0000ee;
+}
